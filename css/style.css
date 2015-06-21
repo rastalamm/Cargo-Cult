@@ -67,9 +67,9 @@ body{
 }
 
 #menu-container{
-  display: inline-block;
-  width: 26%;
-  margin-top: 10%;
+  float: right;
+  width: 70%;
+  margin-top: -4%;
   font-size: 35px;
 }
 
