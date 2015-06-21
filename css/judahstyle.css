@@ -1,0 +1,28 @@
+#spacebreak{
+  padding: 25% 0 !important;
+}
+
+.student1{
+  margin-top: 3%;
+}
+
+#margincustomerfields{
+  margin-top: 3%;
+  height: 10px;
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+#dimensions{
+  width: 6%;
+}
+
+#beginsearch{
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  padding: 20px 50px;
+  border-radius: 3px;
+  background-color: #73d0da;
+  color: #fff;
+  font-size: 16px;
+}

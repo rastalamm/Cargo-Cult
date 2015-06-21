@@ -8,7 +8,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Boxify: Free HTML5/CSS3 Template by Peter Finlan</title>
+		<title>Cargo Cult: Compare Shipping Costs</title>
 		<meta name="description" content="A free HTML5/CSS3 template made exclusively for Codrops by Peter Finlan" />
 		<meta name="keywords" content="html5 template, css3, one page, animations, agency, portfolio, web design" />
 		<meta name="author" content="Peter Finlan" />
@@ -22,6 +22,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 		<link href="css/styles.css" rel="stylesheet">
 		<link href="css/queries.css" rel="stylesheet">
+    <link href="css/judahstyle.css" rel="stylesheet">
 		<!-- Facebook and Twitter integration -->
 		<meta property="og:title" content=""/>
 		<meta property="og:image" content=""/>
@@ -50,7 +51,7 @@
 				<div class="container">
 					<div class="row nav-wrapper">
 						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
-							<a href="#"><img src="images/logo.png" alt="Boxify Logo"></a>
+							<a href="#"><img src="images/logo.png" alt="Cargo Cult Logo"></a>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
 							<p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
@@ -65,7 +66,7 @@
 				</div>
 			</section>
 		</header>
-<!-- 		<section class="video" id="about">
+<!--  		<section class="video" id="about">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
@@ -73,9 +74,9 @@
 					</div>
 				</div>
 			</div>
-		</section>-->
+		</section> -->
 
-		<section class="features-list" id="features">
+		<section class="features-list" id="about">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -123,7 +124,7 @@
             <div class="features-bg">
               <div class="texture-overlay"></div>
               <div class="features-img wp1">
-                <img src="img/html5-logo.png" alt="HTML5 Logo">
+                <img src="images/shipping-containers.jpg" height="399" width="712" alt="HTML5 Logo">
               </div>
             </div>
           </div>
@@ -320,16 +321,88 @@
 				</div>
 			</div>
 		</section>
+
 		<section class="download" id="download">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center wp4">
-						<h1>Seen Enough?</h1>
-						<a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Download! <i class="fa fa-download"></i></a>
+						<h1>Ready To See More?</h1>
+						<a href="#student1" class="animated fadeInUp use-btn">Let's begin</a>
 					</div>
 				</div>
 			</div>
 		</section>
+
+    <section class="student1" id="student1 download">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center wp4">
+            <h1>Where are you going?</h1>
+            From:
+            <select name="From" id="">
+              <option>Oahu</option>
+              <option>Maui</option>
+              <option>Big Island</option>
+            </select>
+            To:
+           <select name="to" id="">
+              <option>Long Beach, CA</option>
+              <option>Oakland, CA</option>
+              <option>TSeattle, WA</option>
+            </select>
+          </div>
+          <div class="col-md-12 text-center wp4">
+            <h1>What are you sending?</h1>
+            <input type="text" placeholder="Clothing, Furniture">
+          </div>
+          <div class="col-md-12 text-center wp4">
+            <div id='margincustomerfields'>
+              <input id="dimensions" type="number" placeholder="Length">
+              <input id="dimensions" type="number" placeholder="Width">
+              <input id="dimensions" type="number" placeholder="Height">
+              <input id="dimensions" type="number" placeholder="Weight">
+            </div>
+          </div>
+
+          <div class="col-md-12 text-center wp4">
+            <a href="#student2" id="beginsearch" class="animated fadeInUp use-btn">Let's begin!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="results" id="results">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center wp4">
+            <h1>Select </h1>
+
+          </div>
+
+          <div class="col-md-12 text-center wp4">
+            <a href="#student2" id="beginsearch" class="animated fadeInUp use-btn">Let's begin!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		<footer>
 			<div class="container">
 				<div class="row">
@@ -354,11 +427,11 @@
 			<nav>
 				<ul>
 					<li><a href="#about"><i class="fa fa-heart"></i>About</a></li>
-					<li><a href="#features"><i class="fa fa-flash"></i>Features</a></li>
+					<li><a href="#features"><i class="fa fa-sliders"></i>Compare</a></li>
 				</ul>
 				<ul>
-					<li><a href="#screenshots"><i class="fa fa-desktop"></i>Screenshots</a></li>
-					<li><a href="#download"><i class="fa fa-download"></i>Download</a></li>
+					<li><a href="#screenshots"><i class="fa fa-question"></i>FAQ</a></li>
+					<!-- <li><a href="#download"><i class="fa fa-download"></i>Download</a></li> -->
 				</ul>
 			</nav>
 		</div>

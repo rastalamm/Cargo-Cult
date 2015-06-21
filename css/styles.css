@@ -827,7 +827,7 @@ Showcase
 Screenshots Intro
 ========================================================================== */
 .screenshots-intro {
-    padding: 170px 0 100px 0;
+    padding: 50px 0 50px 0;
     background-color: #f6f7f9;
 }
 .screenshots-intro h1 {
@@ -931,7 +931,7 @@ Screenshots
 Download Now
 ========================================================================== */
 .download {
-    padding: 120px 0;
+    padding: 25% 0;
     background-color: #3f6184;
 }
 .download h1 {
