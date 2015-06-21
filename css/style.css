@@ -59,20 +59,17 @@ body{
 
 #logo{
   display: inline-block;
-  width: 125px;
-  height: 125px;
-  background-color: black;
+  width: 250px;
 }
 
 .header{
   margin: 2% 0 5% 0;
-  background-color: blue;
 }
 
 #menu-container{
   display: inline-block;
   width: 26%;
-  margin-left: 50%;
+  margin-top: 10%;
   font-size: 35px;
 }
 
@@ -84,18 +81,21 @@ body{
 
 
 .usp-section{
+  width: 915px;
   height: 300px;
-  background-color: red;
+  background: url("../images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
   padding-top: 125px;
 }
 
-.usp-section h1{
+.usp-section > h1{
   font-size: 28px;
   text-align: center;
   padding: 0 5%;
 }
 
-.usp-section h2{
+.usp-section > h2{
   font-size: 18px;
   text-align: center;
   padding: 1% 5%;
