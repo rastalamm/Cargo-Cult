@@ -4033,19 +4033,7 @@ blockquote p {
   z-index: 1004;
   left: 0; }
 
-.reveal-modal {
-  border-radius: 3px;
-  display: none;
-  position: absolute;
-  top: 0;
-  visibility: hidden;
-  width: 100%;
-  z-index: 1005;
-  left: 0;
-  background-color: #FFFFFF;
-  padding: 1.875rem;
-  border: solid 1px #666666;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+
   @media only screen and (max-width: 40em) {
     .reveal-modal {
       min-height: 100vh; } }
