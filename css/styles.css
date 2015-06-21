@@ -60,7 +60,7 @@ html {
 */
 html, button, input, select, textarea {
     font-family: sans-serif;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 html, body {
     overflow-x: hidden;
@@ -72,7 +72,7 @@ html, body {
 */
 body {
     margin: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /*
@@ -412,6 +412,34 @@ textarea {
     vertical-align: top; /* 2 */
 }
 
+/*
+*
+* 
+ */
+.convert-btn {
+    display: block;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    max-width: 40%;
+    margin: 0 auto;
+
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+
+    font-size: 2em;
+    font-weight: 700;
+    color: #4b98a9;
+
+    background: -moz-linear-gradient(top,  rgb(255,255,255) 0%, rgb(236,204,103) 2%, rgb(232,194,85) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,255,255)), color-stop(2%,rgb(236,204,103)), color-stop(100%,rgb(232,194,85)));
+    background: -webkit-linear-gradient(top,  rgb(255,255,255) 0%,rgb(236,204,103) 2%,rgb(232,194,85) 100%);
+    background: -o-linear-gradient(top,  rgb(255,255,255) 0%,rgb(236,204,103) 2%,rgb(232,194,85) 100%);
+    background: -ms-linear-gradient(top,  rgb(255,255,255) 0%,rgb(236,204,103) 2%,rgb(232,194,85) 100%);
+    background: linear-gradient(to bottom,  rgb(255,255,255) 0%,rgb(236,204,103) 2%,rgb(232,194,85) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8c255',GradientType=0 );
+}
 /* ==========================================================================
 Tables
 ========================================================================== */
@@ -472,9 +500,10 @@ Buttons
     margin: 0 10px 10px 0;
     padding: 20px 50px;
     border-radius: 3px;
-    background-color: #fff;
+    background-color: #fc3;
     color: #4b98a9;
-    font-size: 16px;
+    font-size: 1.6em;
+    font-weight: 700;
 }
 .use-btn:hover, .use-btn:focus {
     background-color: #73d0da;
@@ -485,9 +514,11 @@ Buttons
     display: inline-block;
     padding: 18px 46px;
     border: 2px solid #fff;
+    background-color: #fff;
     border-radius: 3px;
-    color: #fff;
-    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.6em;
 }
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
     border-color: #73d0da;
@@ -581,14 +612,16 @@ Hero
     position: relative;
     padding: 60px 0 60px 0;
     min-height: 800px;
-    background: rgb(40, 70, 102) url('../img/hero-01.jpg') no-repeat center center;
+    background: rgb(40, 70, 102) url('../img/hero-03.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
 }
 .hero h1 {
     margin: 200px 0 45px 0;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 45px;
+    text-shadow: 2px 2px #000;
+
 }
 .hero h1 span {
     display: inline-block;
@@ -658,7 +691,7 @@ Features Slider
 .features-bg {
     position: relative;
     min-height: 400px;
-    background: url('../img/features-intro-01.jpg') no-repeat center center;
+    background: url('../img/cargo-row-feature.jpg') no-repeat center center;
     background-size: cover;
 }
 .features-img {
@@ -711,7 +744,7 @@ Features Slider
 Features List
 ========================================================================== */
 .features-list {
-    padding: 130px 0
+    padding: 70px 0
 }
 .features-list h1 {
     margin: 0 0 10px 0;
@@ -726,15 +759,14 @@ Features List
 .feature-content {
     display: inline-block;
     margin-left: 0;
-    width: 65%;
+    width: 85%;
 }
 .feature-icon {
     display: inline-block;
     margin-right: 25px;
-    width: 90px;
-    height: 90px;
-    border: solid 2px #4e9ba3;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    /*border: solid 2px #4e9ba3;*/
     vertical-align: top;
     text-align: center;
     font-size: 25px;
@@ -827,7 +859,7 @@ Showcase
 Screenshots Intro
 ========================================================================== */
 .screenshots-intro {
-    padding: 170px 0 100px 0;
+    padding: 70px 0 30px 0;
     background-color: #f6f7f9;
 }
 .screenshots-intro h1 {
@@ -931,13 +963,13 @@ Screenshots
 Download Now
 ========================================================================== */
 .download {
-    padding: 120px 0;
+    padding: 70px 0;
     background-color: #3f6184;
 }
 .download h1 {
-    margin: 0 0 15px 0;
+    margin-bottom: 24px;
     color: #fff;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 40px;
 }
 
@@ -945,7 +977,7 @@ Download Now
 Footer
 ========================================================================== */
 footer {
-    padding: 100px 0
+    padding: 20px 0;
 }
 footer p {
     color: #c7cacc;
